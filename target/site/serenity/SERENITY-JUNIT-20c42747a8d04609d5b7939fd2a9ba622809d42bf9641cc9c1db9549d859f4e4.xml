@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.studentapp.studentinfo.FirstSerenityTest" skipped="4" tests="7" time="2.76" timestamp="2024-01-07T12:27:55.285Z[Europe/London]"><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="This is will get all information of all students"/><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="Manual"><skipped/></testcase><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="This is compromised"><compromised message="E:\file.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException">E:\file.txt (The system cannot find the path specified)</compromised><system-err>E:\file.txt (The system cannot find the path specified)&#13;
+com.studentapp.studentinfo.FirstSerenityTest.thisIsCompromised(FirstSerenityTest.java:79)&#13;
+</system-err></testcase><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="This is skipped"><skipped/></testcase><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="This is pending"><skipped/></testcase><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="Get all students"/><testcase classname="com.studentapp.studentinfo.FirstSerenityTest" name="This is failing test"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.studentinfo.FirstSerenityTest.thisIsFailingTest(FirstSerenityTest.java:45)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,9 @@
+com\studentapp\testbase\TestBaseBestBuyApi.class
+com\studentapp\cucumber\steps\ProductsSteps.class
+com\studentapp\cucumber\steps\StudentSteps.class
+com\studentapp\studentinfo\FirstSerenityTest.class
+com\studentapp\testbase\TestBase.class
+com\studentapp\studentinfo\StudentCURDTest.class
+com\studentapp\cucumber\CucumberRunner.class
+com\studentapp\studentinfo\CreateStudentDataDrivenTest.class
+com\studentapp\studentinfo\TagsTest.class

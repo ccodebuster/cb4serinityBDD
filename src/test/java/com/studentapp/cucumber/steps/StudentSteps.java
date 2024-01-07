@@ -53,7 +53,7 @@ public class StudentSteps {
 
     @Then("^I verify that the student with \"([^\"]*)\" is created$")
     public void iVerifyThatTheStudentWithIsCreated(String _email) {
-        HashMap<String, ?> studentMap = studentSteps.getStudentInfoByEmail(email);
+        HashMap<String, Object> studentMap = studentSteps.getStudentInfoByEmail(email);
         studentId = (int) studentMap.get("id");
         System.out.println(studentId);
     }

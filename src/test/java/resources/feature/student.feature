@@ -13,8 +13,3 @@ Feature: Testing different request on the student application
       | firstName | lastName | email                 | programme        | courses |
       | code1     | buster1  | codebuster1@gmail.com | Computer Science | JAVA    |
       | code2     | buster2  | codebuster2@gmail.com | Api Testing      | Python  |
-
-
-
-
-

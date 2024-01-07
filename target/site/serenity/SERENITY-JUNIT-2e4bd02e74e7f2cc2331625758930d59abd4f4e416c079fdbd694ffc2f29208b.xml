@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="18" name="com.studentapp.studentinfo.CreateStudentDataDrivenTest" skipped="0" tests="50" time="10.65" timestamp="2024-01-07T13:13:56.142Z[Europe/London]"><testcase classname="com.studentapp.studentinfo.CreateStudentDataDrivenTest" name="Data driven test"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.studentinfo.StudentSteps.createStudent(StudentSteps.java:36)&#13;
+com.studentapp.studentinfo.CreateStudentDataDrivenTest.createMultipleTStudentData(CreateStudentDataDrivenTest.java:45)&#13;
+</system-err></testcase></testsuite>
